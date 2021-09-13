@@ -8,6 +8,11 @@
     width: 100%;
     height: 70px;
 }
+/*FUENTE DE LETRA*/
+@font-face {
+    font-family: titulo;
+    src: url(../Fonts/KaiseiHarunoUmi-Regular.ttf);
+}
 /*BARRA PROMOCIONAL*/
 .barra-promocional {
     width: 100%;
@@ -118,20 +123,6 @@
     text-decoration: none;
     padding: 0;
 }
-/*FUENTE DE LETRA*/
-@font-face {
-    font-family: titulo;
-    src: url(../Fonts/KaiseiHarunoUmi-Regular.ttf);
-}
-/*EFECTO PARTICULAS*/
-#particles-js {
-    background: url(../assets/183575.jpg);
-    background-position: center;
-    background-attachment: contain;
-    background-size: auto;
-    background: #FF0049;
-
-}
 /*MENU PRINCIPAL (DISPOSITIVOS PEQUEÑOS)*/
 #menuprincipal {
     display: none;
@@ -192,6 +183,38 @@ section{
 aside{
     margin-top: 20px;
 }
+/*EFECTO PARTICULAS*/
+#particles-js {
+    background: url(../assets/183575.jpg);
+    background-position: center;
+    background-attachment: contain;
+    background-size: auto;
+    background: lightgray;
+}
+#ancho-letras{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top:50%;
+}
+#ancho-letras h1{
+    color: black;
+}
+#ancho-letras p{
+    color: black;
+}
+#suscribete{
+    border-radius: 50px;
+    padding: 10px;
+    background-color: white;
+    color:#FF0049;
+    border-color: #FF0049;
+    margin-left: 20px;
+}
+#suscribete:hover,#sabermas:hover{
+    cursor: pointer;
+    transform: scale(1.10);
+}
 /*CURSOS VERSION LARGA*/
 #cursosnuevos a article>div{
    display: flex;
@@ -241,6 +264,13 @@ aside{
     margin-left: 10px;
 
 }
+main div h1{
+    text-align: center;
+    font-family: "HKGrotesk Bold",sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+
+}
 /*CURSOS VERSION CORTA*/
 #cursosprincipales{
     float: left;
@@ -249,15 +279,40 @@ aside{
     background-color:lightgray ;
     border-radius: 10px;
 }
-#infoadicional{
+#cursosprincipales a article{
+    color: black;
+}
+#cursosprincipales a article p{
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+/*ASIDE*/
+#infoadicional, #infoadicionalclic{
     float: right;
     width: 29%;
     padding: 2%;
-    background-color: lightgray;
+    background-color: #FF0049;
     border-radius: 10px;
+    color: white;
 }
-#infoadicional h1{
+#infoadicional h1, #infoadicionalclic{
     margin-bottom: 15px;
+}
+#infoadicional p{
+    text-align: center;
+}
+#infoadicionalproximoscursos{
+    float: right;
+    width: 29%;
+    padding: 2%;
+    background-color:lightgray ;
+    border-radius: 10px;
+    color: black;
+}
+#infoadicionalproximoscursos article h4{
+    text-align: center;
+    font-size: 14px;
 }
 a{
     text-decoration: none;
@@ -274,7 +329,7 @@ article p{
     font: 18px titulo, sans-serif;
     text-align: center;
 }
-#cursosnuevos:hover, #cursosprincipales:hover{
+#cursosnuevos:hover, #cursosprincipales:hover, #infoadicionalclic:hover{
     transform: scale(1.10);
 }
 article figure div{

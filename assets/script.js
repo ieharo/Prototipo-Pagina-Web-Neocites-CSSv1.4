@@ -5,12 +5,15 @@ var visible=false;
         }
         function mostrarMenu(){
             var elemento=document.getElementById("menuprincipal");
+            var titulo=document.getElementById("particles-js");
             if(!visible){
                 elemento.style.display="block";
+                titulo.style.display="none";
                 visible=true;
             }
             else{
                 elemento.style.display="none";
+                titulo.style.display="block";
                 visible=false;
             }
         }

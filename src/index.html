@@ -7,7 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ProyectoFinal</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" media="(max-width:1055px)"href="../css/stylehelp.css">
     <link rel="stylesheet" media="(max-width:780px)"href="../css/style2.css">
+    <link rel="stylesheet" media="(max-width:525px)"href="../css/style3.css">
 </head>
 
 <body>
@@ -44,16 +46,45 @@
     </nav>
     
     <div id="particles-js">
-        <div class="ancho-letras">
-            <div class="letras-slider">
-                <h1>APRENDE ALGO NUEVO CADA DIA</h1>
-                <p>Sin salir de tu casa, cancela cuando quieras</p>
-            </div>
+        <div id="ancho-letras">
+            <h1><u>APRENDE ALGO NUEVO CADA DIA</u></h1>
+            <p>Sin salir de tu casa, cancela cuando quieras</p>
+            <br>
+            <a href="precios.html">
+                <button id="suscribete">!Suscribete!</button>
+            </a>
+            <a href="precios.html">
+                <button id="suscribete">Saber más</button>
+            </a>
+           
         </div>
     </div>
     <main>
         <div>
-            <h1>Último cursos publicado</h1>
+            <br>
+            <h1>Último curso publicado</h1>
+            <section id="cursosnuevos">
+                <a href="miembro.html">
+                    <article>
+                        <div>
+                            <section>
+                                <h1>Aprende a programar con Python (Edición 2020)</h1>
+                                <p><img src="../assets/youtube.ico" alt="" height="20px" width="20px"></p>
+                                <h3>Youtuber</h3>
+                                <br>
+                                <strong>
+                                    <p>¿Tú PC está “lenta”? ¿Tienes menos FPS de los que deberías? En este curso aprenderás TODO LO NECESARIO para optimizar tu PC, y exprimirla al máximo, tanto en el día a día, como al jugar.</p>
+                                </strong>
+                            </section>
+                            <figure>
+                                <img src="../assets/exprimetupcalmaximo.jpg">   
+                            </figure>
+                        </div>
+                    </article>
+                </a>
+            </section>
+            <br>
+            <h1>Los cursos mejor valorados</h1>
             <section id="cursosnuevos">
                 <a href="miembro.html">
                     <article>
@@ -74,6 +105,8 @@
                     </article>
                 </a>
             </section>
+            <br>
+            <h1>Más Cursos</h1>
             <section id="cursosprincipales">
                 <a href="miembro.html">
                     <article>
@@ -89,23 +122,89 @@
                     </article>
                 </a>
             </section>
-            <aside id="infoadicional">
-                <h1>INformacion Personal</h1>
-                <p>Cita del articulo 1</p>
-                <p>Cita del articulo 2</p>
+            <aside id="infoadicionalclic">
+                <h1><u>Ver todos los cursos</u></h1>
             </aside>
-            
-        </div>
+            <aside id="infoadicional">
+                <p>+ de </p>
+                <h1>5000</h1>
+                <p>Alumnos</p>
+                <br>
+                <br>
+                <p>+ de </p>
+                <h1>200</h1>
+                <p>Horas de contenido</p>
+                <br>
+                <br>
+                <p>+ de </p>
+                <h1>30</h1>
+                <p>Cursos</p>
+            </aside>
+            <section id="cursosprincipales">
+                <a href="miembro.html">
+                    <article>
+                        <p>!Linux: de Noob a Pro en 9 horas!</p>
+                        <p><img src="../assets/youtube.ico" alt="" height="20px" width="20px"></p>
+                        <h3>Youtuber</h3>
+                        <figure>
+                            <img src="../assets/Linuxdenoobapro.jpg">
+                            <div class="course-card__tag">
+                                <img src="https://cdn-themes.thinkific.com/220744/355269/xuDKHHDLTbOjZzxYtKLK_category__software.svg" class="category-icon"> software 
+                            </div> 
+                        </figure>
+                    </article>
+                </a>
+            </section>
+            <aside id="infoadicional">
+                <p> ↓↓↓ Proximos estrenos ↓↓↓</p>
+                <p>Agosto de locura!!!</p>
+            </aside>
+            <aside id="infoadicionalproximoscursos">
+                    <article>
+                        <figure>
+                            <img src="../assets/fundamentoshtmlcssjs.jpg">
+                        </figure>
+                        <p>Fundamentos de HTML, CSS y JAVASCRIPT</p>
+                        <h4>Lucas SoyDalto </h4>
+                        <p><img src="../assets/youtube.ico" alt="" height="20px" width="20px"></p>
+                        <h4>Youtuber</h4>
+                    </article>
+            </aside>
+            <section id="cursosprincipales">
+                <a href="miembro.html">
+                    <article>
+                        <p>La Biblia del Montaje de PC</p>
+                        <p><img src="../assets/youtube.ico" alt="" height="20px" width="20px"></p>
+                        <h3>Youtuber</h3>
+                        <figure>
+                            <img src="../assets/labibliadelmontajedepc.jpg">
+                            <div class="course-card__tag">
+                                <img src="https://cdn-themes.thinkific.com/220744/355269/xuDKHHDLTbOjZzxYtKLK_category__software.svg" class="category-icon"> software 
+                            </div> 
+                        </figure>
+                    </article>
+                </a>
+            </section>
+            <aside id="infoadicionalproximoscursos">
+                <article>
+                    <figure>
+                        <img src="../assets/nosql.jpg">
+                    </figure>
+                    <p>Guía Completa de bases de datos NoSQL con MongoDB y NodeJS</p>
+                    <h4>BettaTech (Martín) </h4>
+                    <p><img src="../assets/youtube.ico" alt="" height="20px" width="20px"></p>
+                    <h4>Youtuber</h4>
+                </article>
+            </aside>
+        </div>        
     </main>
+    <footer>
+        
+    </footer>
     <!--SCRIPT MENU-->
     <script src="index.js"></script>
     <script src="../assets/script.js"></script>
     <script src="../assets/particles.js"></script>
     <script src="../assets/app.js"></script>
-    <main>
-    </main>
-    <footer>
-    </footer>
 </body>
-
 </html>

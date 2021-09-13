@@ -8,9 +8,10 @@
         height: 55px;
         margin: auto;
         background-color: #FF0049;
-
     }
+    
 }
+
 
 @media(max-width:790px) {
     body {
@@ -42,6 +43,28 @@
     #menuicono{
         display: block;
         background-color: #FF0049;
+    }
+    #ancho-letras{
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        top:25%;
+    }
+    #ancho-letras h1{
+        font-size: 25px;
+    }
+    #cursosnuevos >a >article >div > section{
+        height: 150px;
+    }
+    #cursosnuevos >a >article >div > section >strong >p{
+        font-size: 10px;
+    }
+    #cursosnuevos >a >article >div > section >h1,
+    #cursosnuevos >a >article >div > section >h3
+    {
+        font-size: 12px;
+        text-align: center;
+        color: black;
     }
 
 }
