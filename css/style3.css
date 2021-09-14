@@ -2,6 +2,12 @@
     body {
         background-color: pink;
     }
+    #suscribete{
+        border-radius: 50px;
+        padding: 3px;
+        margin-left: 20px;
+        font-size: 13px;
+    }
     #ancho-letras{
         width: 100%;
         text-align: center;
@@ -9,18 +15,18 @@
         top:90px;
     }
     #ancho-letras h1{
-        font-size: 14px;
+        font-size: 17px;
     }
     #cursosnuevos >a >article >div > section{
         height: 100px;
     }
     #cursosnuevos >a >article >div > section >strong >p{
-        font-size: 5px;
+        font-size: 6px;
     }
     #cursosnuevos >a >article >div > section >h1,
     #cursosnuevos >a >article >div > section >h3
     {
-        font-size: 5px;
+        font-size: 6px;
         text-align: center;
         color: black;
     }
