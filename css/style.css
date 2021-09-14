@@ -212,7 +212,7 @@ aside{
     border-color: #FF0049;
     margin-left: 20px;
 }
-#suscribete:hover,#sabermas:hover{
+#suscribete-precios,#suscribete:hover,#sabermas:hover{
     cursor: pointer;
     transform: scale(1.10);
 }
@@ -291,7 +291,7 @@ main div h1{
 /*HTML CURSOS*/
 #cursos-cursos{
     float: left;
-    width: 45%;
+    width: 100%;
     margin-left: 20px;
     padding-top: 30px;
     background-color:lightgray ;
@@ -304,6 +304,44 @@ main div h1{
     font-size: 1.125rem;
     font-weight: 700;
     line-height: 1.2;
+}
+/*HTML PRECIOS*/
+#precios{
+    float: left;
+    width: 30%;
+    margin-left: 20px;
+    padding-top: 30px;
+    background-color:lightgray ;
+    border-radius: 20px;
+}
+#precios-popular{
+    float: left;
+    width: 30%;
+    margin-left: 20px;
+    padding-top: 30px;
+    background-color:lightgray ;
+    border-radius: 20px;
+    border-style: outset;
+    border-width: 5px;
+    border-color:#FF0049 ;
+}
+#precios a article,#precios-popular a article{
+    color: black;
+}
+#precios a article h3, #precios-popular a article h3{
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+#suscribete-precios{
+    background-color:#FF0049 ;
+    color:white;
+    border-color: #FF0049;
+    justify-content: center;
+    align-items: center;
+}
+main div p{
+    text-align: center;
 }
 /*ASIDE*/
 #infoadicional{
@@ -359,7 +397,7 @@ article p{
     font: 18px titulo, sans-serif;
     text-align: center;
 }
-#cursosnuevos:hover, #cursosprincipales:hover, #infoadicionalclic:hover{
+#precios-popular:hover,#cursosnuevos:hover,#precios:hover,#cursos-cursos:hover,#cursosprincipales:hover, #infoadicionalclic:hover{
     transform: scale(1.10);
 }
 article figure div{

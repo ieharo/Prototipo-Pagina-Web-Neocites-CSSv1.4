@@ -90,27 +90,27 @@ row.innerHTML=`
                     <h4>Company</h4>
                     <ul>
                         <li><a href="#">About us</a></li>
-                        <li><a href="#">Our Services</a></li>
+                        <li><a href="precios.html">Our Services</a></li>
                         <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Affiliate Program</a></li>
+                        <li><a href="precios.html">Affiliate Program</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
                     <h4>Get Help</h4>
                     <ul>
                         <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Courses</a></li>
-                        <li><a href="#">Payment Options</a></li>
+                        <li><a href="cursos.html">Courses</a></li>
+                        <li><a href="precios.html">Payment Options</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
                     <h4>Online Courses</h4>
                     <ul>
-                        <li><a href="#">Development</a></li>
-                        <li><a href="#">TIC's</a></li>
-                        <li><a href="#">Business</a></li>
-                        <li><a href="#">Design</a></li>
-                        <li><a href="#">Marketing</a></li>
+                        <li><a href="cursos.html">Development</a></li>
+                        <li><a href="cursos.html">TIC's</a></li>
+                        <li><a href="cursos.html">Business</a></li>
+                        <li><a href="cursos.html">Design</a></li>
+                        <li><a href="cursos.html">Marketing</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">

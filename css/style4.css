@@ -41,5 +41,8 @@
         text-align: center;
         color: black;
     }
+    #precios-popular, #precios{
+        width:100%;
+    }
 
 }

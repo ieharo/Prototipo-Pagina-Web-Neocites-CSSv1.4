@@ -91,5 +91,10 @@
         border-style: none;
         overflow-y:hidden;
     }
+    #precios-popular, #precios{
+        width:28%;
+        margin-left: 0;
+    }
+    
 }
 
