@@ -24,7 +24,7 @@ const fragment3 = document.createDocumentFragment();
 
 const titulo=document.createElement('div');
 titulo.setAttribute("class","titulo");
-titulo.innerHTML+=`<p><a href="index.html">Cursos</a></p>`;
+titulo.innerHTML+=`<p><a href="index.html">AcademyC</a></p>`;
 fragment3.appendChild(titulo);
 titulo2.appendChild(fragment3);
 /*--------------------BARRA DE NAVEGACION--------------------*/
@@ -89,9 +89,9 @@ row.innerHTML=`
                 <div class="footer-col">
                     <h4>Company</h4>
                     <ul>
-                        <li><a href="#">About us</a></li>
+                        <li><a href="about.html">About us</a></li>
                         <li><a href="precios.html">Our Services</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="politica.html">Privacy Policy</a></li>
                         <li><a href="precios.html">Affiliate Program</a></li>
                         <li><a href="tablas.html">Tables</a></li>
 
