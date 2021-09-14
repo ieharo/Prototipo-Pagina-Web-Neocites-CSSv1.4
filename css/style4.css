@@ -1,0 +1,8 @@
+@media(max-width:400px) {
+    body {
+        background-color: yellow;
+    }
+    #cursosnuevos >a >article >div > section >strong >p{
+        display: none;
+    }
+}
