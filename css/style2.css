@@ -20,7 +20,6 @@
         border-style: none;
         overflow-y:hidden;
     }
-    
 }
 
 
@@ -59,7 +58,7 @@
         width: 100%;
         text-align: center;
         position: absolute;
-        top:25%;
+        top:200px;
     }
     #ancho-letras h1{
         font-size: 25px;
@@ -68,7 +67,7 @@
         height: 150px;
     }
     #cursosnuevos >a >article >div > section >strong >p{
-        font-size: 10px;
+        font-size: 8px;
     }
     #cursosnuevos >a >article >div > section >h1,
     #cursosnuevos >a >article >div > section >h3

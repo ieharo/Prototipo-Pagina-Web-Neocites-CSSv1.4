@@ -196,7 +196,7 @@ aside{
     width: 100%;
     text-align: center;
     position: absolute;
-    top:50%;
+    top:300px;
 }
 #ancho-letras h1{
     color: black;
@@ -275,7 +275,7 @@ main div h1{
 /*CURSOS VERSION CORTA*/
 #cursosprincipales{
     float: left;
-    width: 65%;
+    width: 61%;
     padding-top: 30px;
     background-color:lightgray ;
     border-radius: 10px;
@@ -289,9 +289,17 @@ main div h1{
     line-height: 1.2;
 }
 /*ASIDE*/
-#infoadicional, #infoadicionalclic{
+#infoadicional{
     float: right;
     width: 29%;
+    padding: 2%;
+    background-color: #FF0049;
+    border-radius: 10px;
+    color: white;
+}
+#infoadicionalclic{
+    float: right;
+    width: 100%;
     padding: 2%;
     background-color: #FF0049;
     border-radius: 10px;
