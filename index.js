@@ -93,6 +93,8 @@ row.innerHTML=`
                         <li><a href="precios.html">Our Services</a></li>
                         <li><a href="#">Privacy Policy</a></li>
                         <li><a href="precios.html">Affiliate Program</a></li>
+                        <li><a href="tablas.html">Tables</a></li>
+
                     </ul>
                 </div>
                 <div class="footer-col">
