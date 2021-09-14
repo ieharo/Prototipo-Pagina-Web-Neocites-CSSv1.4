@@ -87,50 +87,58 @@ const row=document.getElementById("container");
 row.innerHTML=`
 <div class="row">
                 <div class="footer-col">
-                    <h4>company</h4>
+                    <h4>Company</h4>
                     <ul>
                         <li><a href="#">About us</a></li>
                         <li><a href="#">Our Services</a></li>
-                        <li><a href="#">Privacy policy</a></li>
-                        <li><a href="#">Affiliate program</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Affiliate Program</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
-                    <h4>get help</h4>
+                    <h4>Get Help</h4>
                     <ul>
                         <li><a href="#">FAQ</a></li>
-                        <li><a href="#">shipping</a></li>
-                        <li><a href="#">returns</a></li>
-                        <li><a href="#">order status</a></li>
-                        <li><a href="#">payment options</a></li>
+                        <li><a href="#">Courses</a></li>
+                        <li><a href="#">Payment Options</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
-                    <h4>online shop</h4>
+                    <h4>Online Courses</h4>
                     <ul>
-                        <li><a href="#">watch</a></li>
-                        <li><a href="#">bag</a></li>
-                        <li><a href="#">shoes</a></li>
-                        <li><a href="#">dress</a></li>
+                        <li><a href="#">Development</a></li>
+                        <li><a href="#">TIC's</a></li>
+                        <li><a href="#">Business</a></li>
+                        <li><a href="#">Design</a></li>
+                        <li><a href="#">Marketing</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
                     <h4>follow us</h4>
                     <div class="social-links">
-                        <a href="#">
+                        <a href="https://www.facebook.com/isaac.haro3/">
                             <i class="fab fa-facebook"></i>
                         </a>
-                        <a href="#">
+                        <a href="https://twitter.com/Isaac19814499">
                             <i class="fab fa-twitter"></i>
                         </a>
-                        <a href="#">
+                        <a href="https://www.linkedin.com/in/isaac-haro/">
                             <i class="fab fa-linkedin"></i>
                         </a>
-                        <a href="#">
+                        <a href="https://github.com/ieharo">
                             <i class="fab fa-github"></i>
                         </a>
-                        <a href="#">
+                        <a href="https://www.instagram.com/podo_tutorials/">
                             <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCHi2TFALsXJT70dhpiJGTFw">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="https://www.tiktok.com/@podotutorials?">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                        <a href="https://podotutorials.blogspot.com">
+                            <i class="fab fa-blogger"></i>
                         </a>
                     </div>
                 </div>

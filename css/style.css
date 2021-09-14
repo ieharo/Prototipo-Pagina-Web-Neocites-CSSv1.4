@@ -288,6 +288,23 @@ main div h1{
     font-weight: 700;
     line-height: 1.2;
 }
+/*HTML CURSOS*/
+#cursos-cursos{
+    float: left;
+    width: 45%;
+    margin-left: 20px;
+    padding-top: 30px;
+    background-color:lightgray ;
+    border-radius: 10px;
+}
+#cursos-cursos a article{
+    color: black;
+}
+#cursos-cursos a article p{
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
 /*ASIDE*/
 #infoadicional{
     float: right;
@@ -303,6 +320,10 @@ main div h1{
     padding: 2%;
     background-color: #FF0049;
     border-radius: 10px;
+    color: white;
+}
+#infoadicionalclic a{
+    text-decoration: none;
     color: white;
 }
 #infoadicional h1, #infoadicionalclic{
